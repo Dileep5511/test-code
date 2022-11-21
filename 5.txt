@@ -1,0 +1,43 @@
+Crawler :
+Web crawler is for System design. Web crawler is also called as spider, spiderbot. In short it is also known as crawler. Web crawler is a framework or a tool or a software 
+which is basically is used to collect the web pages which are available in the internet and then save it in a specific way which is easily accessible . It is also called as 
+web indexing. 
+Different types of web crawlers are :
+1.Apache Nutch
+2.Scrapy
+3.Sider bots
+4.Google bot
+use cases of the web crawler are :
+1.search engine
+2.copyright violation detection
+3.keyword based finding
+4.web malware detection;
+5.web analytics
+
+Website crawling :
+Crawler has several endpoints to control the service or atleast postman to showcase the process
+steps :
+1.choose the post method and specify the jobs endpoint of a crawler API.
+2.Create a new crawler job.
+3.In the authentication tab fill your API user credentials.
+4.Add the content type as application/json.
+5.request header.
+6.Then in the body, set the type to raw.
+7.Configure the payload.
+8.Extract the web data (like html) which is resulted from a website.
+
+To save images :
+Python web scraping to download images.
+1.Install Beautiful Soup by typing pip install bs4 in the command line.
+2.Then type pip install requests to install requests.
+3.Import module
+4.Make requests instance and pass into URL
+5.Pass the requests into a Beautifulsoup() function 
+6.Use 'img' tag to find them all tag ('src').
+
+To get data from a website :
+1.Inspect the website HTML that you want to crawl
+2.Access URL of the website using code and download all the HTML contents on the page
+3.Format the downloaded content into a readable format
+4.Extract out useful information and save it into a structured format
+5.For information displayed on multiple pages of the website, you may need to repeat steps 2–4 to have the complete information.
