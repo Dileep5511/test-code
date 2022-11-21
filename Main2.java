@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+public class Main2
 {
     public static int countLastChar(String str1,String str2){
         int count=0;
